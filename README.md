@@ -5,7 +5,9 @@ I am starting a project at work in which web scraping is necessary to accquire s
 However, the fact it needs a container to run the Splash API is likely to be an issue (public sector). Therefore, I had an idea that it may be quicker to use the technology which is the downfall of most of the options below. I'd already used javascript in web applications for other projects, so I thought I would build upon that and to try and test how that would work. It's likely going to require Python for the data cleaning due to javascript's limited abilities in this respect, therefore there is a chance I will have to use the APEX js package to call a python script for data cleaning. However, this is likely to be the quickest option.
 
 
-Web Scraping Packages 101 (excerpt from a very rough WIP medium article):
+# Web Scraping Packages 101 :
+
+(excerpt from a very rough WIP medium article)
 
 'HTTP Request' packages:
 can't deal with javascript and doesn't have anywhere near the debugging capabilites of scrapy
