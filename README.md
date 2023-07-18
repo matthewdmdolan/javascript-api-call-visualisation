@@ -36,7 +36,11 @@ Packages whereby a real web browser fetch and render the website for you. In ess
 + great functionality and comfortably deals with websites that are heavy on javascript
 - incredibly slow: unlikely to provide the data volumes necessary to provide meaningful pipelines
 
-caveat: there have been discussions of using distributed computing methods to help with this, but this project is within a public sector organisation where resources are limited. Therefore, not an option for this case but it makes for an interested reading nevertheless https://medium.com/@kevanahlquist/selenium-grid-cluster-example-with-docker-and-fig-24943a5eca42
+caveat 1: there have been discussions of using distributed computing methods to help with this, but this project is within a public sector organisation where resources are limited. Therefore, not an option for this case but it makes for an interested reading nevertheless https://medium.com/@kevanahlquist/selenium-grid-cluster-example-with-docker-and-fig-24943a5eca42
+
+caveat 2: can use a proxy to block resources to speed up the functionality, but this isn't an option in my circumstances: 
+
+https://scrapfly.io/blog/how-to-block-resources-in-selenium/
 
 2. ScrapySplash (Python):
 + makes working with javascript a breeze and offers some great testing in terms of allowing pages to be rendered in a gui and also via a shel
@@ -46,6 +50,7 @@ caveat: there have been discussions of using distributed computing methods to he
 
 3. Playwright (multi language):
 + offers multi-language support
++ offers the functionality to block resources to speed up the computationally expensive process of utilising a headless browser
 
 4. Puppeteer (JS):
 + extremely quick
