@@ -1,4 +1,4 @@
-# Javascript API Call Visualisation 
+# Javascript Web Scraper - MVP 
 
 I am starting a project at work in which web scraping is necessary to accquire some data for pipelines. In the process of trying to find the best method, I've found that all have significant trade offs. Ultimately, a lot of the discussions I saw after researching, were centred around Python (my preferred language). Out of the Python options, scrapysplash has been  my favourite, in terms of its ability to efficiently deal with javascript content and offers a great testing framework.
 
